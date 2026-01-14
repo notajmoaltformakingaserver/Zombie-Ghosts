@@ -1,0 +1,13 @@
+name: GhostZombiePlugin
+main: com.example.ghostzombies.GhostZombiePlugin
+version: 1.0.0
+api-version: 1.20
+commands:
+  zombifiedplayers:
+    description: Toggle zombified player feature
+    usage: /zombifiedplayers toggle
+    permission: zombifiedplayers.toggle
+permissions:
+  zombifiedplayers.toggle:
+    description: Allows toggling zombified player feature
+    default: true
